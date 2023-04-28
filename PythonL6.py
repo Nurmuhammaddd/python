@@ -19,4 +19,24 @@ while True:
     
     print("Computer picked", computer_pick + ".")
     
-    if user_input == "rock"`
+    if user_input == "rock" and computer_pick == "scissor":
+        print("You win")
+        user_wins += 1
+        
+    elif user_input == "paper" and computer_pick == "rock":
+        print("You win")
+        user_wins += 1
+
+    elif user_input == "scissor" and computer_pick == "paper":
+        print("You win")
+        user_wins += 1
+        
+    else:
+        print("You lost")
+        computer_wins +=1
+        
+print("You won", user_wins, "times.")
+print("Computer won", computer_wins, "times.")
+
+input("Press enter to exit.")
+    
