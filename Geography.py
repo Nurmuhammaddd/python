@@ -1,18 +1,18 @@
-print("welcome to this test")
+print("welcome to this game")
 
-their_interest = input("Are you ready? ") 
-the_game = input("How much do you rate for yourself to campare it in the end with real score out of 100?")
+their_interest = input("do you want to play? ") 
+the_game = input("How much do you rate for yourself to campare it at end with real score out of 30?")
 
 if their_interest.lower() != "yes":
     quit()
 
-print("Let's get start it ")
+print("Let's get start it  ")
 score = 0
-print(100 / 8)
+
 answer = input("Name the biggest continant? ")
 if answer == "Asia":
     print("Well Done")
-    score += 8
+    score += 10
 else:
     print("No way but don't worry you will answer the next question")
     
